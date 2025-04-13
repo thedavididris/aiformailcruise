@@ -1,0 +1,20 @@
+{
+    "name": "rubbylab/ai-content-toolkit",
+    "title": "AI Kit - Spam and Subject Line Scoring with AI Content Generator including chatGPT",
+    "version": "0.0.3",
+    "app_version": "4.0.24",
+    "description": "Email subject and content generator using chatGPT with subject line score and full mail spam test for Acelle",
+    "autoload": {
+        "psr-4": {
+            "Rubbylab\\AiContentToolkit\\": "src/"
+        }
+    },
+    "extra": {
+        "setting-route": "\\Rubbylab\\AiContentToolkit\\Controllers\\DashboardController@index",
+        "laravel": {
+            "providers": [
+                "Rubbylab\\AiContentToolkit\\ServiceProvider"
+            ]
+        }
+    }
+}
